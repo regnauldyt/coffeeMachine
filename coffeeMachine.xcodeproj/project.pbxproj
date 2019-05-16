@@ -12,6 +12,7 @@
 		008909D0228D049800C059AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008909CE228D049800C059AB /* Main.storyboard */; };
 		008909D2228D049900C059AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008909D1228D049900C059AB /* Assets.xcassets */; };
 		008909D5228D049900C059AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008909D3228D049900C059AB /* LaunchScreen.storyboard */; };
+		008909DD228D08D300C059AB /* coffeeMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008909DC228D08D300C059AB /* coffeeMachine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		008909D1228D049900C059AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		008909D4228D049900C059AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		008909D6228D049900C059AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		008909DC228D08D300C059AB /* coffeeMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coffeeMachine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				008909CA228D049800C059AB /* AppDelegate.swift */,
 				008909CC228D049800C059AB /* ViewController.swift */,
 				008909CE228D049800C059AB /* Main.storyboard */,
+				008909DC228D08D300C059AB /* coffeeMachine.swift */,
 				008909D1228D049900C059AB /* Assets.xcassets */,
 				008909D3228D049900C059AB /* LaunchScreen.storyboard */,
 				008909D6228D049900C059AB /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				008909CD228D049800C059AB /* ViewController.swift in Sources */,
+				008909DD228D08D300C059AB /* coffeeMachine.swift in Sources */,
 				008909CB228D049800C059AB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
